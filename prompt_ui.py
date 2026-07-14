@@ -4,9 +4,8 @@ import streamlit as st
 
 load_dotenv()
 
-# Define the model
 llm = HuggingFaceEndpoint(
-    repo_id="mistralai/Mistral-7B-Instruct-v0.3",  # or any other model
+    repo_id="HuggingFaceH4/zephyr-7b-beta",
     task="text-generation"
 )
 
